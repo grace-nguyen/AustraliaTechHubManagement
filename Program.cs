@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.Contracts;
 using AustraliaTechHubManagement.Interfaces;
 using AustraliaTechHubManagement.Models;
 using AustraliaTechHubManagement.Models.Persons;
@@ -26,9 +25,8 @@ class Program
     {
       string detail = item switch
       {
-        Employee e => e.Name,
+        Person p => p.Name,
         ConsultantCompany c => c.CompanyName,
-        Contractor c => c.Name,
         _ => "Unknown"
       };
       Console.WriteLine($"Type: {item.GetType().Name,-20} | Detail: {detail,-15} | Amount Payable: ${item.GetPaymentAmount(),5:N2}");
