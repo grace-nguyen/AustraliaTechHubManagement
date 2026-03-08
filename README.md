@@ -41,6 +41,6 @@ dotnet run
 ---Australia Tech Hub Management System---
 Type: Developer            | Detail: Grace Nguyen    | Amount Payable: $7,999.20
 Type: Manager              | Detail: John Doe        | Amount Payable: $8,900.00
-Type: Contractor           | Detail: Unknown         | Amount Payable: $8,080.00
+Type: Contractor           | Detail: Jane Smith      | Amount Payable: $8,080.00
 Type: ConsultantCompany    | Detail: Tech Solutions  | Amount Payable: $7,004.00
 ```
